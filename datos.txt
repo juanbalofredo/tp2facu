@@ -1,0 +1,10 @@
+Escuela de Arte Multimedial Da Vinci
+CARRERA: Diseño y Programación Web
+MATERIA: Maquetado y Desarrollo Web
+TRABAJO PRÁCTICO: Examen Parcial 2
+PROFESOR: D’Addezio Alejandro
+ALUMNO: Juan Pérez
+CUATRIMESTRE: 1er Cuatrimestre
+COMISIÓN: AP
+TURNO: Mañana
+FECHA DE ENTREGA: 15 de junio de 2024

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto - Ciudad Ejemplo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Contacto</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="itinerario.html">Itinerario</a></li>
+          <li><a href="informacion.html">Información</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Envíanos un mensaje</h2>
+        <form action="gracias.html" method="post">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+
+          <label for="intereses">Intereses:</label>
+          <select id="intereses" name="intereses[]" multiple>
+            <option value="historia">Historia</option>
+            <option value="cultura">Cultura</option>
+            <option value="naturaleza">Naturaleza</option>
+            <option value="gastronomia">Gastronomía</option>
+            <option value="eventos">Eventos</option>
+          </select>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Nombre del alumno: Juan Pérez</p>
+      <p>Materia: Maquetado y Desarrollo Web</p>
+      <p>Docente: Carlos Ferrer</p>
+      <p>
+        Este sitio es una entrega para un TP de primer cuatrimestre de la
+        Escuela Da Vinci, 2024
+      </p>
+    </footer>
+  </body>
+</html>
